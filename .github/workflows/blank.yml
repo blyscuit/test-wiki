@@ -11,9 +11,9 @@ on:
       release_notes:
         required: true
         description: 'Release Notes: User see as Whats New on App Store'
-      match_testflight_version:
+      bump_testflight_version:
         type: boolean
-        description: 'Match TestFlight newest build. (Optional)'
+        description: 'Bump build number higher than TestFlight latest build.'
         required: false
 
 jobs:
